@@ -1,5 +1,5 @@
 import React from "react";
-import { Code2, Server, Cloud, Brain, CheckCircle } from "lucide-react";
+import { Code2, Cloud, Brain, CheckCircle, Shield } from "lucide-react";
 import { motion, easeOut } from "framer-motion";
 
 const About: React.FC = () => {
@@ -10,14 +10,15 @@ const About: React.FC = () => {
       description: "Specializing in building robust and scalable APIs.",
     },
     {
-      icon: <Server className="w-6 h-6 text-cyan-400" />,
-      title: "DevOps",
-      description: "Passionate about CI/CD, automation, and orchestration.",
+      icon: <Shield className="w-6 h-6 text-cyan-400" />,
+      title: "DevSecOps",
+      description:
+        "Passionate about CI/CD, automation, and security integration.",
     },
     {
       icon: <Cloud className="w-6 h-6 text-cyan-400" />,
-      title: "Cloud & Infrastructure",
-      description: "Exploring system architecture on the cloud.",
+      title: "Cloud Computing",
+      description: "Exploring secure system architecture on the cloud.",
     },
     {
       icon: <Brain className="w-6 h-6 text-cyan-400" />,
@@ -27,8 +28,8 @@ const About: React.FC = () => {
   ];
 
   const currentFocus = [
-    "Deepening my expertise in backend technologies and modern DevOps practices.",
-    "Exploring cloud computing, infrastructure design, and system scalability.",
+    "Deepening my expertise in backend technologies and modern DevSecOps practices.",
+    "Exploring cloud computing, cybersecurity, and system scalability.",
     "Dabbling in Artificial Intelligence and how it can be integrated into robust systems.",
   ];
 
@@ -92,7 +93,8 @@ const About: React.FC = () => {
               , as I'm fascinated by the intricate logic that powers
               applications behind the scenes. While others might focus on the
               user interface, I thrive on architecting the business logic, data
-              systems, and infrastructure that make everything work seamlessly.
+              systems, security and infrastructure that make everything work
+              seamlessly.
             </p>
             <h3 className="text-xl font-semibold text-white mb-4">
               Currently, I'm focusing on:

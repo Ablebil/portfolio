@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 const textsToType = [
   "Backend Developer",
-  "DevOps Enthusiast",
+  "DevSecOps Enthusiast",
   "Computer Science Student",
 ];
 const socialLinks = [
